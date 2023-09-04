@@ -33,7 +33,7 @@ import { keypairIdentity, Metaplex, NftWithToken } from '@metaplex-foundation/js
 import { TokenStandard } from '@metaplex-foundation/mpl-token-metadata';
 import { BN } from 'bn.js';
 
-const METAPLEX_PROGRAM_ID = new PublicKey('metaqbxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s');
+const METAPLEX_PROGRAM_ID = new PublicKey('Do6Z4U9XdZwCGBUUwhWZSCUC6bh96bmgzhqi9zmz8dQL');
 
 export class InitTransactions {
   readonly getKeypair: LoadOrGenKeypair | GenLabeledKeypair;

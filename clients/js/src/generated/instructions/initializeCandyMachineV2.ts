@@ -352,7 +352,7 @@ export function initializeCandyMachineV2(
   if (!resolvedAccounts.tokenMetadataProgram.value) {
     resolvedAccounts.tokenMetadataProgram.value = context.programs.getPublicKey(
       'mplTokenMetadata',
-      'metaqbxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s'
+      'Do6Z4U9XdZwCGBUUwhWZSCUC6bh96bmgzhqi9zmz8dQL'
     );
     resolvedAccounts.tokenMetadataProgram.isWritable = false;
   }
