@@ -128,7 +128,7 @@ export function getCandyGuardGpaBuilder(
 ) {
   const programId = context.programs.getPublicKey(
     'mplCandyGuard',
-    '9e1qb9pQYoGBeeJxYfGUwGcoMyLteKedd1XzVYgsPvS9'
+    '6aFdZ1MGb5b8rXpBpPXe3SKr3zxY84JRWWoA3jeAzaZF'
   );
   return gpaBuilder(context, programId)
     .registerFields<{
@@ -159,7 +159,7 @@ export function findCandyGuardPda(
 ): Pda {
   const programId = context.programs.getPublicKey(
     'mplCandyGuard',
-    '9e1qb9pQYoGBeeJxYfGUwGcoMyLteKedd1XzVYgsPvS9'
+    '6aFdZ1MGb5b8rXpBpPXe3SKr3zxY84JRWWoA3jeAzaZF'
   );
   return context.eddsa.findPda(programId, [
     string({ size: 'variable' }).serialize('candy_guard'),

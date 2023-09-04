@@ -460,6 +460,7 @@ kinobi.update(
   })
 );
 
+// TODO change to forked metadata repo
 // Render JavaScript.
 const jsDir = path.join(clientDir, "js", "src", "generated");
 kinobi.accept(

@@ -119,7 +119,7 @@ export function getAllocationTrackerGpaBuilder(
 ) {
   const programId = context.programs.getPublicKey(
     'mplCandyGuard',
-    '9e1qb9pQYoGBeeJxYfGUwGcoMyLteKedd1XzVYgsPvS9'
+    '6aFdZ1MGb5b8rXpBpPXe3SKr3zxY84JRWWoA3jeAzaZF'
   );
   return gpaBuilder(context, programId)
     .registerFields<{ count: number }>({ count: [0, u32()] })
@@ -146,7 +146,7 @@ export function findAllocationTrackerPda(
 ): Pda {
   const programId = context.programs.getPublicKey(
     'mplCandyGuard',
-    '9e1qb9pQYoGBeeJxYfGUwGcoMyLteKedd1XzVYgsPvS9'
+    '6aFdZ1MGb5b8rXpBpPXe3SKr3zxY84JRWWoA3jeAzaZF'
   );
   return context.eddsa.findPda(programId, [
     string({ size: 'variable' }).serialize('allocation'),

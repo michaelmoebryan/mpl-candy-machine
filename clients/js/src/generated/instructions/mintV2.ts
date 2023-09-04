@@ -217,7 +217,7 @@ export function mintV2(
   // Program ID.
   const programId = context.programs.getPublicKey(
     'mplCandyGuard',
-    '9e1qb9pQYoGBeeJxYfGUwGcoMyLteKedd1XzVYgsPvS9'
+    '6aFdZ1MGb5b8rXpBpPXe3SKr3zxY84JRWWoA3jeAzaZF'
   );
 
   // Accounts.
@@ -414,7 +414,7 @@ export function mintV2(
   if (!resolvedAccounts.splTokenProgram.value) {
     resolvedAccounts.splTokenProgram.value = context.programs.getPublicKey(
       'splToken',
-      'TTTXzBCbNAJ7sJZErBkpdsgLWgwgR9gx6tud8m34YXb'
+      'TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA'
     );
     resolvedAccounts.splTokenProgram.isWritable = false;
   }
