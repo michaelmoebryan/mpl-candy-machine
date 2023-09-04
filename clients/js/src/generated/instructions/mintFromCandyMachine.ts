@@ -295,7 +295,7 @@ export function mintFromCandyMachine(
   if (!resolvedAccounts.tokenProgram.value) {
     resolvedAccounts.tokenProgram.value = context.programs.getPublicKey(
       'splToken',
-      'TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA'
+      'TTTXzBCbNAJ7sJZErBkpdsgLWgwgR9gx6tud8m34YXb'
     );
     resolvedAccounts.tokenProgram.isWritable = false;
   }
