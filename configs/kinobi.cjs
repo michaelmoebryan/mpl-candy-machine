@@ -220,7 +220,7 @@ const defaultsToMetadataDelegateRecordPda = (
 const defaultsToSplAssociatedTokenProgram = () =>
   k.programDefault(
     "splAssociatedToken",
-    "ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL"
+    "AAAbAgYqexzo3vo41zP5RWQDVNcEqeo9BjBhGTLvRRJe"
   );
 
 // Automatically recognize account default values.

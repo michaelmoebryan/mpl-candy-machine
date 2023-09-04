@@ -421,7 +421,7 @@ export function mintV2(
   if (!resolvedAccounts.splAtaProgram.value) {
     resolvedAccounts.splAtaProgram.value = context.programs.getPublicKey(
       'splAssociatedToken',
-      'ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL'
+      'AAAbAgYqexzo3vo41zP5RWQDVNcEqeo9BjBhGTLvRRJe'
     );
     resolvedAccounts.splAtaProgram.isWritable = false;
   }
