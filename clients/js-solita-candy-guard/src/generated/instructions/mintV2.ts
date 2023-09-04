@@ -112,7 +112,7 @@ export const mintV2InstructionDiscriminator = [120, 121, 23, 146, 173, 110, 199,
 export function createMintV2Instruction(
   accounts: MintV2InstructionAccounts,
   args: MintV2InstructionArgs,
-  programId = new web3.PublicKey('Guard1JwRhJkVH6XZhzoYxeBVQe872VH6QggF4BWmS9g'),
+  programId = new web3.PublicKey('6aFdZ1MGb5b8rXpBpPXe3SKr3zxY84JRWWoA3jeAzaZF'),
 ) {
   const [data] = mintV2Struct.serialize({
     instructionDiscriminator: mintV2InstructionDiscriminator,

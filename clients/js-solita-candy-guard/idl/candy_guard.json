@@ -1,5 +1,5 @@
 {
-  "version": "1.0.3",
+  "version": "2.0.0",
   "name": "candy_guard",
   "instructions": [
     {
@@ -1918,7 +1918,7 @@
   "metadata": {
     "address": "6aFdZ1MGb5b8rXpBpPXe3SKr3zxY84JRWWoA3jeAzaZF",
     "origin": "anchor",
-    "binaryVersion": "0.27.0",
-    "libVersion": "0.27.0"
+    "binaryVersion": "0.28.0",
+    "libVersion": "0.28.0"
   }
 }

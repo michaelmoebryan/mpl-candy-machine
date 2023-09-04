@@ -49,7 +49,7 @@ export const unwrapInstructionDiscriminator = [126, 175, 198, 14, 212, 69, 50, 4
  */
 export function createUnwrapInstruction(
   accounts: UnwrapInstructionAccounts,
-  programId = new web3.PublicKey('Guard1JwRhJkVH6XZhzoYxeBVQe872VH6QggF4BWmS9g'),
+  programId = new web3.PublicKey('6aFdZ1MGb5b8rXpBpPXe3SKr3zxY84JRWWoA3jeAzaZF'),
 ) {
   const [data] = unwrapStruct.serialize({
     instructionDiscriminator: unwrapInstructionDiscriminator,
