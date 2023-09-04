@@ -158,7 +158,7 @@ export function mintFromCandyMachine(
   // Program ID.
   const programId = context.programs.getPublicKey(
     'mplCandyMachineCore',
-    '8MTRsiiN9Sc8eEiG7NM1qxQpoDUXLLRGwq8nzG3tbdwF'
+    '6kvQ9WtATMR4dMuJNCS87w1YhJdGT2zpPzDnD9uUye2w'
   );
 
   // Accounts.
@@ -295,7 +295,7 @@ export function mintFromCandyMachine(
   if (!resolvedAccounts.tokenProgram.value) {
     resolvedAccounts.tokenProgram.value = context.programs.getPublicKey(
       'splToken',
-      'TTTXzBCbNAJ7sJZErBkpdsgLWgwgR9gx6tud8m34YXb'
+      'TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA'
     );
     resolvedAccounts.tokenProgram.isWritable = false;
   }

@@ -89,7 +89,7 @@ export function updateCandyMachine(
   // Program ID.
   const programId = context.programs.getPublicKey(
     'mplCandyMachineCore',
-    '8MTRsiiN9Sc8eEiG7NM1qxQpoDUXLLRGwq8nzG3tbdwF'
+    '6kvQ9WtATMR4dMuJNCS87w1YhJdGT2zpPzDnD9uUye2w'
   );
 
   // Accounts.
