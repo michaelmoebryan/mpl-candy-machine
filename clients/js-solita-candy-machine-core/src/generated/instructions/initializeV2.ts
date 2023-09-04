@@ -93,7 +93,7 @@ export const initializeV2InstructionDiscriminator = [67, 153, 175, 39, 218, 16, 
 export function createInitializeV2Instruction(
   accounts: InitializeV2InstructionAccounts,
   args: InitializeV2InstructionArgs,
-  programId = new web3.PublicKey('CndyV3LdqHUfDLmE5naZjVN8rBZz4tqhdefbAnjHG3JR'),
+  programId = new web3.PublicKey('8MTRsiiN9Sc8eEiG7NM1qxQpoDUXLLRGwq8nzG3tbdwF'),
 ) {
   const [data] = initializeV2Struct.serialize({
     instructionDiscriminator: initializeV2InstructionDiscriminator,
