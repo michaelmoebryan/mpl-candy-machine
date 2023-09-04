@@ -8,7 +8,7 @@ const programDir = path.join(__dirname, "..", "programs");
 generateIdl({
   generator: "anchor",
   programName: "candy_machine_core",
-  programId: "6kvQ9WtATMR4dMuJNCS87w1YhJdGT2zpPzDnD9uUye2w",
+  programId: "8MTRsiiN9Sc8eEiG7NM1qxQpoDUXLLRGwq8nzG3tbdwF",
   idlDir,
   binaryInstallDir,
   programDir: path.join(programDir, "candy-machine-core", "program"),
@@ -21,7 +21,7 @@ generateIdl({
 generateIdl({
   generator: "anchor",
   programName: "candy_guard",
-  programId: "9e1qb9pQYoGBeeJxYfGUwGcoMyLteKedd1XzVYgsPvS9",
+  programId: "6aFdZ1MGb5b8rXpBpPXe3SKr3zxY84JRWWoA3jeAzaZF",
   idlDir,
   binaryInstallDir,
   programDir: path.join(programDir, "candy-guard", "program"),
