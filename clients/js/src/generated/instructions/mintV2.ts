@@ -345,7 +345,7 @@ export function mintV2(
   if (!resolvedAccounts.candyMachineProgram.value) {
     resolvedAccounts.candyMachineProgram.value = context.programs.getPublicKey(
       'mplCandyMachine',
-      'CndyV3LdqHUfDLmE5naZjVN8rBZz4tqhdefbAnjHG3JR'
+      '8MTRsiiN9Sc8eEiG7NM1qxQpoDUXLLRGwq8nzG3tbdwF'
     );
     resolvedAccounts.candyMachineProgram.isWritable = false;
   }
