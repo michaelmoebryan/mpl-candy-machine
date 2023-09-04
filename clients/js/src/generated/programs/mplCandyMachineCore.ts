@@ -18,7 +18,7 @@ import {
 } from '../errors';
 
 export const MPL_CANDY_MACHINE_CORE_PROGRAM_ID =
-  'CndyV3LdqHUfDLmE5naZjVN8rBZz4tqhdefbAnjHG3JR' as PublicKey<'CndyV3LdqHUfDLmE5naZjVN8rBZz4tqhdefbAnjHG3JR'>;
+  '8MTRsiiN9Sc8eEiG7NM1qxQpoDUXLLRGwq8nzG3tbdwF' as PublicKey<'8MTRsiiN9Sc8eEiG7NM1qxQpoDUXLLRGwq8nzG3tbdwF'>;
 
 export function createMplCandyMachineCoreProgram(): Program {
   return {

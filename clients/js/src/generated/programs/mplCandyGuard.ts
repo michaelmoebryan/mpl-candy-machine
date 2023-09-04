@@ -18,7 +18,7 @@ import {
 } from '../errors';
 
 export const MPL_CANDY_GUARD_PROGRAM_ID =
-  'Guard1JwRhJkVH6XZhzoYxeBVQe872VH6QggF4BWmS9g' as PublicKey<'Guard1JwRhJkVH6XZhzoYxeBVQe872VH6QggF4BWmS9g'>;
+  '6aFdZ1MGb5b8rXpBpPXe3SKr3zxY84JRWWoA3jeAzaZF' as PublicKey<'6aFdZ1MGb5b8rXpBpPXe3SKr3zxY84JRWWoA3jeAzaZF'>;
 
 export function createMplCandyGuardProgram(): Program {
   return {

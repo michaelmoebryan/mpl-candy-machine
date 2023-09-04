@@ -83,7 +83,7 @@ export function setCandyGuardAuthority(
   // Program ID.
   const programId = context.programs.getPublicKey(
     'mplCandyGuard',
-    'Guard1JwRhJkVH6XZhzoYxeBVQe872VH6QggF4BWmS9g'
+    '6aFdZ1MGb5b8rXpBpPXe3SKr3zxY84JRWWoA3jeAzaZF'
   );
 
   // Accounts.

@@ -158,7 +158,7 @@ export function mintFromCandyMachine(
   // Program ID.
   const programId = context.programs.getPublicKey(
     'mplCandyMachineCore',
-    'CndyV3LdqHUfDLmE5naZjVN8rBZz4tqhdefbAnjHG3JR'
+    '8MTRsiiN9Sc8eEiG7NM1qxQpoDUXLLRGwq8nzG3tbdwF'
   );
 
   // Accounts.
